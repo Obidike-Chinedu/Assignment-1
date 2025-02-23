@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav aria-labelledby="primary-navigation">
+            <ul>
+                <li>
+                    <a href="#audio">
+                        < audio >
+                    </a>
+                </li>
+                <li>
+                    <a href="#video">
+                        < video >
+                    </a>
+                </li>
+                <li>
+                    <a href="#iframe">
+                        < iframe >
+                    </a>
+                </li>
+                <li>
+                    <a href="#embed">
+                        < embed >
+                    </a>
+                </li>
+                <li>
+                    <a href="#source">
+                        < source >
+                    </a>
+                </li>
+                <li>
+                    <a href="#track">
+                        < track >
+                    </a>
+                </li>
+                <li>
+                    <a href="#picture">
+                        < picture >
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article id="audio">
+            <section>
+                <h1><em>Audio Element</em></h1>
+                <audio controls src="Audio/It will rain.mp3"></audio>
+            </section>
+        </article>
+        <article id="video">
+            <section>
+                <h1><em>Video Element</em></h1>
+                <video controls src="video/20221028_161227.mp4"></video>
+            </section>
+        </article>
+        <article id="iframe">
+            <section>
+                <h1><em>iframe Element</em></h1>
+                <iframe src="https://www.youtube.com/embed/vkZTngSUpXU?si=Zn74jZ4TWlEws892" frameborder="0" title="Altschool Africa Assignments and Assessments: Where to get help"></iframe>
+            </section>
+        </article>
+        <article id="embed">
+            <section>
+                <h1><em>Embed Element</em></h1>
+                <embed src="https://media.giphy.com/media/l0HUepUXayPnuHTMs/giphy.gif?cid=ecf05e47q3pj8u2znxdszgengcp1brnkqk76ek1ezv4aegkj&ep=v1_gifs_related&rid=giphy.gif&ct=g" width="250" height="200" type="gif">
+            </section>
+        </article>
+        <article>
+            <section id="source">
+                <h1><em>Source Element</em></h1>
+                <video>
+                    <source src="video/20221028_161227.mp4">
+                </video>
+            </section>
+        </article>
+        <article>
+            <section id="track">
+                <h1><em>Track Element</em></h1>
+                <video controls>
+                    <source src="">
+                </video>
+            </section>
+        </article>
+        <article>
+            <section id="picture">
+                <h1><em>Picture Element</em></h1>
+                <picture>
+                    <source srcset="Picture/_DSC0798.JPG" media="(max-width: 600px)">
+                    <source srcset="Picture/99ff3dfa.jpg" media="(max-width: 900px)">
+                    <source srcset="Picture/47599983.jpg" media="(max-width: 1200px)">
+                    <img src="Picture/6c5dbca1.jpeg" alt="">
+                </picture>
+            </section>
+        </article>
+    </main>
+</body>
+</html>
